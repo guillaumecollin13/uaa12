@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <?php 
@@ -41,10 +42,38 @@
         </div>
 </fieldset>
 <fieldset>
-<legend>périodicité</legend>
-    <form >
-
+    <legend>periodicité</legend>
+    <div>
+        <input type="radio" name="newsletter" id="newsletterhebdomadaire">
+        <label>newsletter hebdomadaire</label>
+    </div>
+    <div>
+        <input type="radio" name="newsletter" id="newslettermensuelle">
+        <label>newsletter mensuelle</label>
+    </div>
+    <div>
+        <input type="radio" name="newsletter" id="newslettertrimestrielle">
+        <label>newsletter trimestrielle</label>
+</div>
 </fieldset>
-
+<fieldset>
+<legend>version paier/informatique</legend>
+    <form >
+        
+        <div>
+            <input type="checkbox" name="papier" id="papier">
+            <label>papier</label>
+        </div>
+        <div>
+            <input type="checkbox" name="informatique">
+            <label>informatique</label>
+        </div>
+        <div>
+            <input type="text" name="nombresdecopies" id="nombresdecopies">
+            <label >nombres de copies</label>
+        </div>
+</fieldset>
+<input type="submit" name="submit" id="submit"> 
+</form>
 </body>
 </html>

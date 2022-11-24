@@ -7,20 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-     $i = -5;
-     $j = 1;
-     for($j =1; $j<=2;$i++) {
-        if($i<0){ 
-     $k = $i*-1;
-     echo "<la valuer absolue de" . $i . "est" . $k . "</p>";
-        }
-        else {
-    echo "<la valuer absolue de" . $i . "est" . $i . "</p>"; 
-        }
-        $j = 10;
-        }
-
-    ?>
+    <?php $i = -5;
+     for($j =1; $j<=2;$j++) :?>
+        <?php if($i<0) : $k = $i*-1;?>
+            <p>la valuer absolue de </p> <?= $i ?> <p>est</p> <?= $k ?><?php $i = 10;?>
+        <?php else : ?>
+            <p>la valeur absolue de</p><?=$i ?><p>est</p><?=$i ?> 
+        <?php endif?>
+    
+    <?php endfor?>
 </body>
 </html>

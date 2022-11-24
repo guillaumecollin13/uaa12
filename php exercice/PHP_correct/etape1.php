@@ -7,13 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-     $i = 0;
-     while($i < 100) {
-        $i++ ;
-     echo "<p>le nombre vaut " . $i . "</p>";
-     }
-     
-    ?>
+    <?php for($i=1; $i<= 10; $i++) : ?>
+     <p>le nombre vaut</p> <?= $i?>
+     <?php endfor ?>
 </body>
 </html>

@@ -7,13 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
-     $i = 1;
-     for($i =1; $i<=10;$i++) {
-        if($i!=3){ 
-     echo "<p>le nombre vaut " . $i . "</p>";
-        }
-     }
-    ?>
+    <?php for($i =1; $i<=10;$i++) :?>
+        <?php   if($i!=3) :?>
+     <p>le nombre vaut</p>
+     <?= $i ?>
+     <?php endif ?>
+     <?php endfor ?>
 </body>
 </html>

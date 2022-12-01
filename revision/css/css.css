@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    background-color: antiquewhite;
+
+}
+.edensflex{
+    display: flex;
+}
+li{
+    list-style: none; 
+}
+.justifycontentspacearound{
+    justify-content: space-around;
+}
+.edenscolor {
+    background-color: burlywood; 
+}
+.brown{
+    color: brown;
+    size: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+input {
+border-radius: 10px;
+}
+legend{
+   border: solid 1px;
+    border-radius: 10px 25px ;
+    background-color: burlywood ;
+}
+.box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover{
+    background-color: antiquewhite;
+    box-shadow: 4px 4px 6px  black ;
+    box-shadow: -4px -4px -6px lightgray;
+}
+fieldset{
+    position: absolute ceter;
+}
+ul{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.edentext{
+    size: 1.5em;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    size: 3em;
+}
+.flexdirectioncolumn{
+    flex-direction: column;
+}
+.inline{
+    display: inline;
+}
+label{
+    display: block;
+}

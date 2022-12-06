@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: #AFC8DB;
+}
+.edensflex{
+    display: flex;
+}
+.lol{
+    background-color:#0D91f5 ;
+}
+.lol:hover{
+    background-color: #324d61;
+     cursor: pointer;
+}
+.aie{
+   
+    background-color: #899CAB;
+    border-radius: 50%;
+    text-align: center;
+    border: solid 2px;
+    
+}
+.edenstext{
+    color: whitesmoke;
+    text-decoration: none;
+}
+img{
+    width: 45px;
+}
+.coloneimage{
+    width: 120px;
+}
+.formulaire{
+    flex-grow : 5;
+        
+}
+.justifycontentspaceevenly{
+    justify-content: space-evenly;
+}
+.edenspad{
+    padding: 1%;
+}
+.largform{
+    width: 40%;
+}
+.justifycontentspacearound{
+    justify-content: space-around
+}
+.titreforms{
+    font-size: 2em;
+    padding: 5px;
+}
+.justifycontentspacebetween{
+    justify-content: space-between;
+}
+.color{
+    background-color: #324D61;
+}
+h1{
+    color: white;
+
+}
+.button{
+    border-radius: 25%;
+    padding: 10px;
+}
+fieldset{
+    padding-right: 40%;
+    padding-bottom: 40%;
+}
+.paddfield{
+    padding-bottom: 80%;
+}
+a{
+    text-align: center;
+}
+.height{
+padding-bottom: 25% ;
+}
+.border{
+    border: solid 1px;
+}

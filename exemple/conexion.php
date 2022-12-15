@@ -20,21 +20,27 @@
             <li><a href="conexion.php">connexion</a></li>
         </ul>
     </header>
-    <fieldset class="center">
-        <legend><h1>connexion</h1></legend>
-        <div>
-            <label>nom d'utilisateur</label>
-            <input type="text" name="username" id="username" />
+    <form action="">
+        <fieldset class="center">
+            <legend>
+                <h1>connexion</h1>
+            </legend>
+            <div class="marg">
+                <label>nom d'utilisateur</label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div class="marg">
+                <label>mots de passe</label>
+                <input type="password" name="password" ide="password">
+            </div>
+        </fieldset>
+        <div class="center marg">
+            <button>link start</button>
         </div>
-        <div>
-            <label>mots de passe</label>
-            <input type="password" name="password" ide="password">
-        </div>
-    </fieldset>
-    <div class="center">
-        <button >link start</button>
+    </form>
+    <div class="center marg">
+        <p>pas encore inscrit? inscrivez vous <a href="inscription.php">ici!</a></p>
     </div>
-    <p><a href="inscription.php">pas encore inscrit?</a></p>
     <footer>
         <div class="flex space-between align-item-center">
             <p><a href="https://www.christinesurges.be/" target="_blank" title="Aller à l'agence">Voir l'agence</a></p>

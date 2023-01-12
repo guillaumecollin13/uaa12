@@ -1,3 +1,6 @@
+<?php 
+require_once("databaseconexion.php"); 
+?>
 <!DOCTYPE html>
 <html lang="fr">
 

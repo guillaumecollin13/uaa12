@@ -1,10 +1,10 @@
 <?php
 
-function createdUser($PDO)
+function createdUser($pdo)
 {
     try {
         $query = "insert into utilisateurs(nomUser, prenomUser, loginUser, emailUser, passWordUser, role ) values(:nomUser, :prenomUser, :loginUser, :emailUser, :passWordUser, :role)";
-        $ajouteUser = $PDO->prepare($query);
+        $ajouteUser = $pdo->prepare($query);
         $ajouteUser->execute([
             'nomUser' => $_POST['txtNom'],
             'prenomUser' => $_POST['txtPrenom'],
